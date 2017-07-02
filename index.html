@@ -22,6 +22,7 @@
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+        <script src="https://use.fontawesome.com/9c24f2ebbb.js"></script>
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 
@@ -46,11 +47,15 @@
       <div id="navbar3" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
           <!-- <li class="active"><a href="#">Home</a></li> -->
-          <li><a href="http://swarm-gateways.net/bzz:/theswarm.eth/">about swarm</a></li>
+          <li><a id="agenda_link" href="#agenda">agenda</a></li>
+          <li><a href="http://swarm-gateways.net/bzz:/theswarm.eth/" target="blank">swarm</a></li>
+          <li><a href="https://ethereum.org/" target="blank">ethereum</a></li>
+          <li><a id="friends_link" href="#friends">friends</a></li>
+          <li><a id="contact_link" href="#contact">contact</a></li>
         </ul>
       </div>
 
-          
+
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
@@ -59,18 +64,14 @@
 
     <div class="jumbotron">
       <div class="container">
-        <h1>SWARM ORANGE SUMMIT 2017</h1>
-        <p>bringing together the Swarm team
-        <p>foundation members and core</p>
-        <p>contributors in an environment of total</p>
-        <p>immersion, open dialogues and cross</p>
-        <p>polination among different projects.</p>
+        <!--<h1>SWARM ORANGE SUMMIT 2017</h1>
+        <p id="tagline">bringing together the Swarm team foundation members and core contributors in an environment of total immersion, open dialogues and cross polination among different projects.</p> -->
+        <h1>SWARM ORANGE SUMMIT 2017 <span style="color:#fff;">bringing together the Swarm team foundation members and core contributors in an environment of total immersion, open dialogues and cross polination among different projects.</span></h1>
       </div>
     </div>
 
-    <div class="container">
+    <div class="container vidcontainer">
       <div id="main">
-
       <div class="row thumbs">
         <div class="col-md-4">
           <div class="flexible-container">
@@ -199,62 +200,110 @@
 
       </div>
 
-      <h3>GUESTS ATTENDEES</h3>
+   <div class="container-fluid">
+      <h3 id="friends">Friends</h3>
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-xs-4 col-md-4">
             <a href="https://golem.network/" target="blank"><img class="logo" src="./img/logos/golem.png"></a>
           </div>
-          <div class="col-md-3">
+          <div class="col-xs-4 col-md-4">
             <a href="https://colony.io/" target="blank"><img class="logo" src="./img/logos/Colony.png"></a>
           </div>
-          <div class="col-md-3">
+          <div class="col-xs-4 col-md-4">
             <a href="http://status.im/" target="blank"><img class="logo" src="./img/logos/status.png"></a>
           </div>
-          <div class="col-md-3">
+        </div>
+
+        <div class="row">
+          <div class="col-xs-4 col-md-4">
             <a href="https://www.bigchaindb.com/" target="blank"><img class="logo" src="./img/logos/bigchaindb.png"></a>
           </div>
-        </div>
-        
-        <div class="row">
-          <div class="col-md-3">
+          <div class="col-xs-4 col-md-4">
             <a href="https://livepeer.org/" target="blank"><img class="logo" src="./img/logos/livepeer.png"></a>
           </div>
-          <div class="col-md-3">
+          <div class="col-xs-4 col-md-4">
             <a href="https://storj.io/" target="blank"><img class="logo" src="./img/logos/storj.png"></a>
           </div>
-          <div class="col-md-3">
+        </div>
+
+        <div class="row">
+
+          <div class="col-xs-4 col-md-4">
+            <a href="http://raiden.network/" target="blank"><img class="logo" src="./img/logos/logo_branco_horizontal.png"></a>
+          </div>
+          <div class="col-xs-4 col-md-4">
             <a href="http://raiden.network/" target="blank"><img class="logo" src="./img/logos/raiden.png"></a>
           </div>
-          <div class="col-md-3">
+          <div class="col-xs-4 col-md-4">
             <a href="http://www.oraclize.it/" target="blank"><img class="logo" src="./img/logos/oraclize.png"></a>
           </div>
         </div>
+    </div>
 
-        
+    <div id="agenda" class="container-fluid">
+      <h3>Agenda</h3>
+        <div class="row" id="agenda">
+          <div class="col-md-4">
+            <h4>Monday 11th June</h4>
+            <ul>
+              <li>Aron Fischer: Swarm Introduction</li>
+              <li>Daniel Nagy: Swarm Networking Layer</li>
+              <li>Fabian Vogelsteller: Mist - Swarm Integration in Mist</li>
+              <li>Fabio Barone: Network Testing and Simulation Framework</li>
+              <li>Louis Holbrook: Swarm - PSS</li>
+            </ul>
+          </div>
 
-      <h3>GOALS</h3>
+          <div class="col-md-4">          
+            <h4>Tuesday 12th June</h4>
+            <ul>
+              <li>Viktor Tron: The Role of Chunks in The Grand Vision on Provable Decentralised Databases</li>
+              <li>Viktor Tron: Swarm Storage Layer</li>
+              <li>James Prestwich: On some overlaps between Storj and Swarm</li>
+              <li>Alex Leverington: An Introduction to Golem</li>
+              <li>Tomas Berthani: Oraclize</li>
+              <li>Lefteris Karapetsas, Konrad Feldmeier: Raiden</li>
+              <li>Shahan Khatchatiurian: Bisimuation-based Structural Summaries of Large Graphs</li>
+              <li>Tim Diebenschütz: BigchainDB</li>
+              <li>Zahoor: Swarm Fuse Demo</li>
+            </ul>
+          </div>
 
-      <ul>
-      <li>create an environment for total immersion into our passion without consideration for anything else</li>
-      <li>bring people together, share the love</li>
-      <li>foster open dialogue, encourage cross-pollination</li>
-      <li>give the innovative technologies we work on the weight it deserves</li>
-      <li>clue up everyone about the big picture and each other's work</li>
-      <li>brainstorm about hard questions</li>
-      <li>strengthen the links to sister projects and client projects</li>
-      <li>create publicity for out tech</li>
-      </ul>
+          <div class="col-md-4">
+            <h4>Wednesday 13th June</h4>
+            <ul>
+              <li>Aron Fischer: Accessing Manifests on Swarm</li>
+              <li>Viktor Tron: Scalable payment systems</li>
+              <li>Alexey Akhunov: Many to Many Payments</li>
+              <li>Doug Petkanics: Livepeer Demonstration</li>
+              <li>Daniel Nagy: Plausible Deniability</li>
+              <li>Elad Verbin: Data structures and security on Swarm</li>
+              <li>Julien: A Decentralized Identity for Remote Areas Prototype</li>
+            </ul>
+          </div>
 
-      <h3>RELEVANT LINKS</h3>
+          </div>
+        </div>
+    </div>
 
-      <p><a href="http://swarm-gateways.net/bzz:/theswarm.eth/#the-thsph-orange-paper-series" target="blank">Swarm’s Orange Paper</a></p>
-      <p><a href="https://gist.github.com/zelig/d52dab6a4509125f842bbd0dce1e9440">PSS messaging</a></p>
-      <p><a href="https://github.com/ethereum/go-ethereum/projects/6">Swarm Project Roadmap and POC Series Plan</a></p>
-</div> <!--end main -->
+    <div class="container">
+    <div class="row linkframe" id="contact">
+          <div class="col-md-12">
+             <a href="https://swarm-guide.readthedocs.io"><i class="fa fa-book" aria-hidden="true"></i> Guide</a> &nbsp 
+             <a href="https://github.com/ethereum/go-ethereum"><i class="fa fa-bolt" aria-hidden="true"></i> Source Code</a> &nbsp 
+             <a href="https://github.com/ethereum/go-ethereum/labels/swarm"><i class="fa fa-github-alt" aria-hidden="true"></i> Issues on Github</a> &nbsp 
+             <a href="https://github.com/ethereum/go-ethereum/projects/6"><i class="fa fa-rocket" aria-hidden="true"></i> Roadmap</a> &nbsp 
+             <a href="https://ethereum.github.io/go-ethereum"><i class="fa fa-github-alt" aria-hidden="true"></i> swarm on Github</a> &nbsp 
+             <a href="#FIXME"><i class="fa fa-twitter" aria-hidden="true"></i> swarm on Twitter</a>
+          </div>
+        </div>
+    </div>
+
+
+</div><!--end main -->
 
       <footer>
         <div id="bottom">
-          <a href="https://ethereum.org/" target="blank"><img src="img/logos/logo_eth.png" alt="Ethereum Foundation"></a>
           <p><small>Swarm 2017</small></p>
         </div>
       </footer>

@@ -55,9 +55,26 @@ h3 {
     font-weight: 100;
 }
 
+h4 {
+    margin-bottom: 20px;
+}
+
 a {
     color: #F7A000;    
 }
+
+ul {
+    list-style-type: none;
+    margin-bottom: 40px;
+    padding-left: 0;
+}
+
+#agenda li {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+
 
 #main img {
     min-width: 100%;
@@ -164,7 +181,7 @@ li, a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 25% 25% 0;
+    padding: 0 25%;
     margin: 40px 0;    
 }
 
@@ -197,10 +214,6 @@ ul.nav li a{font-size: 0.8em;}
 p#tagline{margin-top: -40px;}
 .jumbotron{margin-bottom: 0px; margin-top: -70px !important;}
 .vidcontainer{margin-top:-60px !important;}
-/*---h1, .h1, h2, .h2, h3, .h3 {
-  margin-top: 0px !important;
-  margin-bottom: 0px !important;
-}---*/
 h2{font-size:1.5em;}
 h1{font-size:1.8em !important;}
 #bottom a, #bottom p {
@@ -209,5 +222,12 @@ h1{font-size:1.8em !important;}
     padding: 60px;
     text-align: center;
 }
+
 /*--section-t{margin-top: 0px !important; vertical-align: text-top;}---*/
-.linkframe{border: 2px solid #F7A000 !important; padding:6px 4px;}
+
+.linkframe {
+    border: 2px solid #F7A000 !important; 
+    padding: 6px 4px;
+    margin-top: 40px;
+    text-align: center;
+}
